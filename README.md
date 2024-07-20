@@ -24,7 +24,7 @@ A simple Python script, built with the help of GPT-4o, used to look through a da
     pip install -r requirements.txt
     ```
     
-4. The script can handle the images and captions being in the same folder, which is a common dataset structure.
+4. The script can handle the images and captions being in the same folder, feel free to keep them together.
 
 ## Usage
 
