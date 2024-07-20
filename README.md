@@ -2,6 +2,8 @@
 A simple Python script I wrote to test my regularization dataset captions -- built with the help of GPT-4o -- which combs through a dataset folder and analyzes the caption TXT files therein. Information about the distribution/frequency of the words/tokens is then diplayed using bar charts, a pie chart, word cloud, length histogram, and a frequency distribution. An output TXT with listed token counts is also generated during the process. Feel free to use, share, and modify this script to suit your needs. 
 <(˶ᵔᵕᵔ˶)>
 
+![screenshot](Preview_Graphs.png)
+
 ## Table of Contents
 
 - [Installation](#installation)
