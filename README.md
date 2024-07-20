@@ -56,6 +56,8 @@ To run the script and visualize the captions, follow these steps:
 
 6. Close the graph window and press any key to exit the script.
 
+7. EXTRA Batch Caption Prompt: Check out the bottom of my Civitai article for information, [here](https://civitai.com/articles/6264/a-simple-script-for-visualizing-captions-in-large-datasets).
+
 ## Contributing
 
 (NOTE: I'm new to sharing through GitHub, and this is just the standard template for this section)
