@@ -11,17 +11,20 @@ A simple Python script, built with the help of GPT-4o, used to look through a da
 
 ## Installation
 
-1. Clone the repository:
+1. Please have Python 3.7, or later, installed. You can download it from [python.org](https://www.python.org/downloads/).
+
+2. Clone the repository and go into the created folder:
     ```sh
     git clone https://github.com/klromans557/Visualize-DataSet-Captions.git
     cd Visualize-DataSet-Captions
     ```
 
-2. Install the required dependencies:
+3. Install the required dependencies:
     ```sh
     pip install -r requirements.txt
     ```
-3. The script expects that the images and captions are in the same folder so structure your dataset accordingly.
+    
+4. The script can handle the images and captions being in the same folder, which is a common dataset structure.
 
 ## Usage
 
