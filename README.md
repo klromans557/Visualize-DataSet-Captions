@@ -1,5 +1,5 @@
 # Visualize-DataSet-Captions
-A simple Python script, built with the help of GPT-4o, used to look through a dataset folder and analyze the caption TXT files therein. Information about the distribution & frequency of words & tokens is then diplayed using bar charts, a pie chart, word cloud, length histogram, and a frequency distribution. An output TXT with listed token counts is also generated during the process. Feel free to use, share, and modify this script to suite your needs. (づ๑•ᴗ•๑)づ♡
+A simple Python script, built with the help of GPT-4o, used to look through a dataset folder and analyze the caption TXT files therein. Information about the distribution & frequency of words & tokens is then diplayed using bar charts, a pie chart, word cloud, length histogram, and a frequency distribution. An output TXT with listed token counts is also generated during the process. Feel free to use, share, and modify this script to suit your needs. (づ๑•ᴗ•๑)づ♡
 
 ## Table of Contents
 
