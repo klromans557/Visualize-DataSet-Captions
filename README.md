@@ -42,7 +42,7 @@ To run the script and visualize the captions, follow these steps:
 
 3. Run the script using the included BAT file.
 
-4. If the `token_counts.txt` file already exists, the script will skip the token counting step and proceed to the graphs. Keep in mind that if you cant any of your dataset     TXT files, that you will need to delete this file and re-run the script.
+4. If the `token_counts.txt` file already exists, the script will skip the token counting step and proceed to the graphs. Keep in mind that if you change any of your dataset TXT files that you will need to delete this file and re-run the script.
 
 5. The script will display the following graphs:
     - Two bar charts showing the relative frequency of the top N tokens.
