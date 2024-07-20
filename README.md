@@ -75,5 +75,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [OpenAI](https://www.openai.com) for providing guidance and assistance in developing this project.
 - [GitHub](https://github.com) for hosting the repository.
-- [Dr.Furkan Gözükara](https://www.patreon.com/SECourses/posts) for sharing their scripts through the SECourses Patron, associated Discord server, and YouTube channel.
+- [Dr. Furkan Gözükara](https://www.patreon.com/SECourses/posts) for sharing their scripts through the SECourses Patron, associated Discord server, and YouTube channel.
   These resources were invaluable to me during the development of this project.
