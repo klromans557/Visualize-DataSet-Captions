@@ -28,11 +28,13 @@ A simple Python script, built with the help of GPT-4o, used to look through a da
 To run the script and visualize the dataset captions, follow these steps:
 
 1. Update variables at the top of the script to suite your files:
-   - Change `directory_path` variable in the script to the path of your dataset folder (e.g directory_path = r"C:Users\YOU\Desktop\DataSet_Folder")
+   - Change `directory_path` variable in the script to the path of your dataset folder
+     * e.g directory_path = r"C:Users\YOU\Desktop\DataSet_Folder"
    - The `exlude_list` has been populated with common words, but feel free to change these.
    - Set the `num_loaders` based on number of CPU cores to use in parallel processing.
    - Set the `top_n` value to change the number of top N tokens displayed in graphs.
-   - Change `output_file` text for the name of the output TXT file with token counts (note: this file is created in the same directory as the script when run.)
+   - Change `output_file` text for the name of the output TXT file with token counts
+     * note: this file is created in the same directory as the script when run.
 
 3. Run the script using the included BAT file.
 
