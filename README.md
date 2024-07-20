@@ -52,7 +52,7 @@ To run the script and visualize the captions, follow these steps:
     - A histogram of token lengths.
     - A frequency distribution plot of token frequencies.
 
-6. Press any key or close the graph window to exit the script.
+6. Close the graph window to exit the script.
 
 ## Contributing
 
