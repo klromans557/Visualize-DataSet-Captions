@@ -1,5 +1,6 @@
 # Visualize-DataSet-Captions
-A simple Python script, built with the help of GPT-4o, used to look through a dataset folder and analyze the caption TXT files therein. Information about the distribution & frequency of words & tokens is then diplayed using bar charts, a pie chart, word cloud, length histogram, and a frequency distribution. An output TXT with listed token counts is also generated during the process. Feel free to use, share, and modify this script to suit your needs. (づ๑•ᴗ•๑)づ♡
+A simple Python script I wrote to test my regularization dataset captions -- built with the help of GPT-4o -- which combs through a dataset folder and analyzes the caption TXT files therein. Information about the distribution/frequency of the words/tokens is then diplayed using bar charts, a pie chart, word cloud, length histogram, and a frequency distribution. An output TXT with listed token counts is also generated during the process. Feel free to use, share, and modify this script to suit your needs. 
+<(˶ᵔᵕᵔ˶)>
 
 ## Table of Contents
 
@@ -28,14 +29,14 @@ A simple Python script, built with the help of GPT-4o, used to look through a da
 
 ## Usage
 
-To run the script and visualize the dataset captions, follow these steps:
+To run the script and visualize the captions, follow these steps:
 
-1. Update variables at the top of the script to suite your files:
-   - Change `directory_path` variable in the script to the path of your dataset folder
+1. Update the variables at the top of the script:
+   - Change `directory_path` to the path of your dataset folder.
      * e.g directory_path = r"C:Users\YOU\Desktop\DataSet_Folder"
    - The `exlude_list` has been populated with common words, but feel free to change these.
-   - Set the `num_loaders` based on number of CPU cores to use in parallel processing.
-   - Set the `top_n` value to change the number of top N tokens displayed in graphs.
+   - Set the `num_loaders` based on number of CPU cores/threads to use in parallel processing.
+   - Set the `top_n` value to change the number of top N tokens used in graph calculations.
    - Change `output_file` text for the name of the output TXT file with token counts
      * note: this file is created in the same directory as the script when run.
 
@@ -56,6 +57,7 @@ To run the script and visualize the dataset captions, follow these steps:
 ## Contributing
 
 (NOTE: I'm new to sharing through GitHub, and this is just the standard template for this section)
+
 Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please follow these steps:
 
 1. Fork the repository.
