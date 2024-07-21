@@ -107,7 +107,7 @@ def main():
     axes[0, 1].set_xticks(range(len(tokens)))
     axes[0, 1].set_xticklabels(tokens, rotation=45)
     
-    # Third graph: pie chart of the top N tokens, normalized to all tokens
+    # Third graph: pie chart of the top N tokens, normalized to Top N
     axes[0, 2].pie(normalized_all_counts, labels=tokens, autopct='%1.1f%%', startangle=140)
     axes[0, 2].set_title('Top N Most Common Tokens (Pie Chart, Normalized to Top N)')
 
