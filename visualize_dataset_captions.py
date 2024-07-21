@@ -109,7 +109,7 @@ def main():
     
     # Third graph: pie chart of the top N tokens, normalized to all tokens
     axes[0, 2].pie(normalized_all_counts, labels=tokens, autopct='%1.1f%%', startangle=140)
-    axes[0, 2].set_title('Top N Most Common Tokens (Pie Chart, Normalized to All)')
+    axes[0, 2].set_title('Top N Most Common Tokens (Pie Chart, Normalized to Top N)')
 
     # Fourth graph: word cloud of the top N tokens
     wordcloud = WordCloud(width=800, height=400, background_color='white').generate_from_frequencies(dict(zip(tokens, counts)))
