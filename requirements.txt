@@ -1,3 +1,4 @@
 matplotlib
 wordcloud
 seaborn
+networkx
