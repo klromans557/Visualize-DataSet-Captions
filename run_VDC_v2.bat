@@ -2,7 +2,7 @@
 setlocal
 
 REM Check if the Python script exists in the current directory
-set script_name=visualize_dataset_captions.py
+set script_name=visualize_dataset_captions_v2.py
 
 if exist %script_name% (
     echo Running %script_name%...
