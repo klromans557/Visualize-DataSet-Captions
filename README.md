@@ -27,7 +27,7 @@ A simple Python script I wrote to test my regularization dataset captions -- bui
  - Chart titles/labels that were not correct
  - Expanded comments in python script for user convenience and clarity
 
-### [1.0] - 7/21/2024
+### [1.0] - 7/20/2024
 _First release._
 
 ## Installation
