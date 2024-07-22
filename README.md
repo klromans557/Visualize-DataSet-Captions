@@ -70,7 +70,7 @@ To run the script and visualize the captions, follow these steps:
     - A bar charts showing the relative frequency of the top N tokens (normalized to all tokens).
     - A pie chart showing the relative frequency of the top N tokens (normalized to top N tokens).
     - A word cloud of the top N tokens.
-    - A network graph of the co-occurences in the top N tokens.
+    - A network graph of the co-occurrences in the top N tokens.
     - A histogram of token lengths.
     - A frequency distribution plot of token frequencies.
 
