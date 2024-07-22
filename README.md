@@ -21,7 +21,7 @@ A simple Python script I wrote to test my regularization dataset captions -- bui
  - One Bar chart as it contained redundant information already present in the pie chart.
 
 #### Added 
- - Network Graph of the Top N Tokens to highlight co-occurences within the top N tokens.
+ - Network Graph of the Top N Tokens to highlight co-occurences within the Top N tokens.
 
 #### Fixed
  - Chart titles/labels that were not correct
@@ -60,11 +60,11 @@ To run the script and visualize the captions, follow these steps:
    - Set the `network_index` to select which of the top N token nodes to emphasize in network graph.
      * e.g., most common: = 1, least common: = top_n
    - Change `output_file` text for the name of the output TXT file with token counts.
-     * note: this file is created in the same directory as the script when run.
+     * note: this file is created in the same directory as the script when run, default to 'token_counts'
 
 3. Run the script using the included BAT file or double-click the py file.
 
-4. If the `token_counts.txt` file already exists, the script will skip the token counting step and proceed to the graphs. Keep in mind that if you change any of your dataset TXT files that you will need to delete this file and re-run the script.
+4. If the `token_counts.txt` file already exists, the script will skip the token counting step and proceed to the graphs. Keep in mind that if you change any of your dataset TXT files that you will need to delete/re-name this file and re-run the script.
 
 5. The script will display the following graphs:
     - A bar charts showing the relative frequency of the top N tokens (normalized to all tokens).
