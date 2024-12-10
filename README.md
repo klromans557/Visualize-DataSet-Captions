@@ -51,14 +51,14 @@ _First release._
     ```
 
 3. Install the required dependencies:
-   Use the provided `install_VDC.bat`
+   - Use the provided `install_VDC.bat`, which also makes caption folder
 
    OR
    
     ```sh
     pip install -r requirements.txt
     ```
-    and make a caption folder yourself
+    - and make a caption folder yourself
    
 4. The script can handle the images and captions being in the same folder, feel free to keep them together.
 
