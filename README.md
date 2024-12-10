@@ -75,7 +75,7 @@ To run the script and visualize the captions, follow these steps:
    - Change `output_file` text for the name of the output TXT file with token counts.
      * note: this file is created in the same directory as the script when run, default to 'token_counts'
 
-3. Run the script using the included BAT file or double-click the py file.
+3. Place captions in `captions` folder. Run the script using the included BAT file or double-click the py file.
 
 4. If the `token_counts.txt` file already exists, the script will skip the token counting step and proceed to the graphs. Keep in mind that if you change any of your dataset TXT files that you will need to delete/re-name this file and re-run the script.
 
