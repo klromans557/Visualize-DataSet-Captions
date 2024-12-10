@@ -8,9 +8,11 @@ from wordcloud import WordCloud
 import seaborn as sns
 import networkx as nx
 
-# Global variables - USER DEFINED ===================================================================
+script_dir = os.path.dirname(os.path.abspath(__file__))
+directory_path = os.path.join(script_dir, "captions")
 
-directory_path = r"<your dataset path here>" # e.g.: = r"C:\Users\YOU\Desktop\dataset_folder_name"
+# Global variables - USER DEFINED ===================================================================
+# Dynamically set the directory_path to the 'captions' folder in the same directory as the script
 exclude_list = [
     'a', 'an', 'and', 'the', 'of', 'in', 'on', 'is', 'it', 'to', 'for', 'by', 
     'with', 'about', 'at', 'as', 'but', 'if', 'or', 'nor', 'so', 'yet', 

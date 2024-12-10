@@ -1,4 +1,4 @@
-matplotlib
-wordcloud
-seaborn
-networkx
+matplotlib==3.9.3
+wordcloud==1.9.4
+seaborn==0.13.2
+networkx==3.4.2
