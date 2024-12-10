@@ -15,6 +15,16 @@ A simple Python script I wrote to test my regularization dataset captions -- bui
 
 ## Changelog
 
+### [2.1] - 12/10/2024
+A few small changes to improve the user experience.
+
+### Added
+- New install BAT to set up local venv and create `captions` folder.
+- New run BAT to use script and activate venv.
+
+### Changed
+- Main script now uses the local `captions` folder to look for the TXT files. Should still be able to keep images and captions together.
+
 ### [2.0] - 7/22/2024
 
 #### Removed 
@@ -41,19 +51,22 @@ _First release._
     ```
 
 3. Install the required dependencies:
+   Use the provided `install_VDC.bat`
+
+   OR
+   
     ```sh
     pip install -r requirements.txt
     ```
-    
+    and make a caption folder yourself
+   
 4. The script can handle the images and captions being in the same folder, feel free to keep them together.
 
 ## Usage
 
 To run the script and visualize the captions, follow these steps:
 
-1. Update the variables at the top of the script:
-   - Change `directory_path` to the path of your dataset folder.
-     * e.g, = r"C:Users\YOU\Desktop\DataSet_Folder"
+1. (Optional) Update the variables at the top of the script. However, the defaults work fine in most cases:
    - The `exlude_list` has been populated with common words, but feel free to change these.
    - Set the `num_loaders` based on number of CPU cores/threads to use in parallel processing.
    - Set the `top_n` value to change the number of top N tokens used in graph calculations.
@@ -74,7 +87,7 @@ To run the script and visualize the captions, follow these steps:
     - A histogram of token lengths.
     - A frequency distribution plot of token frequencies.
 
-6. Close the graph and terminal windows to exit the script.
+6. Close the terminal windows to exit the script.
 
 7. EXTRA Batch Caption Prompt: Check out the bottom of my Civitai article for information, [here](https://civitai.com/articles/6264/a-simple-script-for-visualizing-captions-in-large-datasets).
 
